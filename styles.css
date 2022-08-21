@@ -1,0 +1,121 @@
+body {
+    background-color: #E0E0E0;
+}
+
+.custom-navbar-brand {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.bg-header {
+    background-color: #2F80ED;
+}
+
+.custom-active-item {
+    font-weight: bold !important;
+    border-bottom: 10px solid #fff !important;
+}
+
+.custom-active-item a {
+    font-weight: 600 !important;
+    color: #fff !important;
+}
+
+.custom-nav-item {
+    border-bottom: 10px solid #2F80ED;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.custom-nav-item a {
+    font-weight: 500;
+    color: #000;
+}
+
+.custom-nav-link {
+    pointer-events: none;
+    cursor: default;
+}
+
+.custom-main-body {
+    background-color: #fff;
+    padding: 80px 40px 40px 40px;
+}
+
+.custom-banner {
+    height: 500px;
+    background-color: #2D9CDB;
+    padding: 0;
+}
+
+.custom-banner-greet {
+    height: 60%;
+    border-radius: 0 0 100% 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.custom-banner-greet h1 {
+    text-align: center;
+    font-size: 5em;
+    padding: 0 70px 70px 0;
+
+}
+
+.custom-banner-message {
+    align-self: center;
+}
+
+.custom-banner-message h3 {
+    text-align: right;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.custom-banner-message h4 {
+    text-align: left;
+    font-size: 2em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.custom-section-header {
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 0;
+}
+
+.custom-project-tile {
+    min-height: 200px;
+    background-color: #fff;
+    border: 1px solid #D9D9D9;
+}
+
+.custom-tile-left {
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.custom-tile-right {
+    border-radius: 0 10px 10px 0;
+}
+
+
+.custom-project-main {
+    flex-grow: 1;
+    background-color: #000;
+}
+
+.custom-project-extend {
+    flex-grow: 0;
+    transition: flex-grow 0.5s;
+}
+
+.custom-project-extend:hover {
+    flex-grow: 1;
+}
