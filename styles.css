@@ -113,7 +113,7 @@ body {
 .custom-project-tile {
     height: 250px;
     background-color: #fff;
-    border: 1px solid #D9D9D9;
+    /* border: 1px solid #D9D9D9; */
     transition: flex-grow 1s;
     
     display: flex;
@@ -135,7 +135,7 @@ body {
 
 .custom-project-main {
     flex-grow: 5;
-    padding: 10px;
+    padding: 0 0 0 10px;
     text-align: center;
 }
 
@@ -146,9 +146,12 @@ body {
 .custom-project-extend {
     /* flex-grow: 5; */
     /* transition: flex-grow 1s; */
-    min-width: 75px;
+    min-width: 50px;
     background-color: #2F80ED;
     padding: 10px;
+
+    border-radius: 0 10px 10px 10px;
+    overflow: hidden;
 } 
 
 .custom-project-extend p {
@@ -157,6 +160,10 @@ body {
     font-size: 1em;
     padding-top: 10px;
 } 
+
+.custom-project-redirect {
+    height: 15%;
+}
 
 /* .custom-project-extend:hover {
     flex-grow: 15;
@@ -202,12 +209,17 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 80%;
+    /* max-width: 80%; */
     max-height: 100%;
+
+    padding: 3px;
+
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
 
     background-color: #2F80ED;
     text-decoration: none;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 
     overflow: hidden;
     text-overflow: ellipsis;
