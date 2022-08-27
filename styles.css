@@ -147,6 +147,7 @@ body {
     /* flex-grow: 5; */
     /* transition: flex-grow 1s; */
     width: 50px;
+    min-width: 50px;
     background-color: #2F80ED;
     padding: 10px;
 
