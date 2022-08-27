@@ -146,13 +146,13 @@ body {
 .custom-project-extend {
     /* flex-grow: 5; */
     /* transition: flex-grow 1s; */
-    min-width: 50px;
+    width: 50px;
     background-color: #2F80ED;
     padding: 10px;
 
     border-radius: 0 10px 10px 10px;
     overflow: hidden;
-} 
+}
 
 .custom-project-extend p {
     color: #fff;
@@ -162,7 +162,8 @@ body {
 } 
 
 .custom-project-redirect {
-    height: 15%;
+    height: 30px;
+    min-width: 30px;
 }
 
 /* .custom-project-extend:hover {
